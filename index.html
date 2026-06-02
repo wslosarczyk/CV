@@ -14,217 +14,179 @@
         </button>
     </div>
 
-    <!-- Main Container -->
-    <div class="container">
-        <!-- Header -->
-        <header class="header" id="header">
-            <div class="header-content">
+    <div class="cv-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="profile-section">
+                <img src="profile.jpg" alt="Wiktoria Slosarczyk" class="profile-image">
+            </div>
+
+            <div class="sidebar-content">
+                <!-- Contact -->
+                <section class="sidebar-section">
+                    <h3 id="contact-title" class="sidebar-heading">CONTACT</h3>
+                    <div class="contact-list">
+                        <div class="contact-item">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:wiktoria.slosarczyk@gmail.com">wiktoria.slosarczyk@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Phone</span>
+                            <a href="tel:+48692898566">+48 692 898 566</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label" id="city-label">City</span>
+                            <span>Bestwina</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label" id="birth-label">Born</span>
+                            <span>28.11.2006</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Skills -->
+                <section class="sidebar-section">
+                    <h3 id="skills-title" class="sidebar-heading">SKILLS</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">REST API</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">MS Office</span>
+                    </div>
+                </section>
+
+                <!-- Languages -->
+                <section class="sidebar-section">
+                    <h3 id="languages-title" class="sidebar-heading">LANGUAGES</h3>
+                    <div class="language-item">
+                        <span id="lang-polish">Polish</span>
+                        <div class="dots-rating">
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                        </div>
+                    </div>
+                    <div class="language-item">
+                        <span id="lang-english">English</span>
+                        <div class="dots-rating">
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot empty"></span>
+                        </div>
+                    </div>
+                    <div class="language-item">
+                        <span id="lang-german">German</span>
+                        <div class="dots-rating">
+                            <span class="dot filled"></span>
+                            <span class="dot empty"></span>
+                            <span class="dot empty"></span>
+                            <span class="dot empty"></span>
+                            <span class="dot empty"></span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Interests -->
+                <section class="sidebar-section">
+                    <h3 id="interests-title" class="sidebar-heading">INTERESTS</h3>
+                    <div class="interests-list">
+                        <span id="interest-economics">Economics</span>
+                        <span id="interest-geopolitics">Geopolitics</span>
+                        <span id="interest-automotive">Automotive</span>
+                        <span id="interest-tennis">Tennis</span>
+                    </div>
+                </section>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
                 <h1 id="name">Wiktoria Slosarczyk</h1>
-                <p id="title">IT Professional</p>
-            </div>
-        </header>
+                <p id="title">TECHNICAL SECONDARY SCHOOL • IT</p>
+                <div class="header-divider"></div>
+                <p id="subtitle">Bestwina · wiktoria.slosarczyk@gmail.com · +48 692 898 566</p>
+            </header>
 
-        <!-- Contact Info -->
-        <section class="contact-info">
-            <div class="contact-item">
-                <span class="icon">📧</span>
-                <a href="mailto:wiktoria.slosarczyk@gmail.com">wiktoria.slosarczyk@gmail.com</a>
-            </div>
-            <div class="contact-item">
-                <span class="icon">📞</span>
-                <a href="tel:+48692898566">+48 692 898 566</a>
-            </div>
-            <div class="contact-item">
-                <span class="icon">📍</span>
-                <span id="city">Bestwina, Poland</span>
-            </div>
-            <div class="contact-item">
-                <span class="icon">🎂</span>
-                <span id="dob">28.11.2006</span>
-            </div>
-        </section>
-
-        <!-- Navigation Tabs -->
-        <nav class="nav-tabs">
-            <button class="tab-button active" onclick="showTab('about')" id="tab-about">
-                <span id="tab-label-about">About Me</span>
-            </button>
-            <button class="tab-button" onclick="showTab('education')" id="tab-label-education">
-                <span id="tab-label-education">Education</span>
-            </button>
-            <button class="tab-button" onclick="showTab('experience')" id="tab-label-experience">
-                <span id="tab-label-experience">Experience</span>
-            </button>
-            <button class="tab-button" onclick="showTab('skills')" id="tab-label-skills">
-                <span id="tab-label-skills">Skills</span>
-            </button>
-            <button class="tab-button" onclick="showTab('languages')" id="tab-label-languages">
-                <span id="tab-label-languages">Languages</span>
-            </button>
-            <button class="tab-button" onclick="showTab('interests')" id="tab-label-interests">
-                <span id="tab-label-interests">Interests</span>
-            </button>
-        </nav>
-
-        <!-- Content Sections -->
-        <main class="content">
             <!-- About Me -->
-            <section id="about" class="tab-content active">
-                <h2 id="about-title">About Me</h2>
-                <div id="about-text" class="about-text">
-                    <p>Dedicated IT professional with a passion for database management and API development. Currently pursuing studies in IT with practical experience in relational database administration and REST API implementation. Committed to continuous learning and contributing to team success.</p>
-                </div>
+            <section class="about-section">
+                <h2 id="about-title">ABOUT ME</h2>
+                <p id="about-text">Dedicated IT professional with a passion for database management and REST API development. Experienced in relational database administration and backend development using Node.js. Committed to continuous learning, problem-solving, and contributing to innovative tech solutions.</p>
             </section>
 
             <!-- Education -->
-            <section id="education" class="tab-content">
-                <h2 id="education-title">Education</h2>
-                <div class="education-item">
-                    <div class="item-header">
-                        <h3 id="school-name">Private IT Secondary School</h3>
-                        <span class="date" id="school-dates">2021 - 2026</span>
+            <section class="content-section">
+                <h2 id="education-title" class="section-heading">EDUCATION</h2>
+                
+                <div class="entry">
+                    <div class="entry-header">
+                        <h3 id="school-name">Private IT Technical Secondary School</h3>
+                        <span id="school-dates" class="date">2021 – 2026</span>
                     </div>
-                    <p id="school-location">Bestwina, Poland</p>
+                    <p id="school-subtitle" class="subtitle">IT Programmer Technician</p>
+                    <p id="school-desc">Programming, databases, computer networks, operating systems.</p>
                 </div>
             </section>
 
             <!-- Experience -->
-            <section id="experience" class="tab-content">
-                <h2 id="experience-title">Experience</h2>
+            <section class="content-section">
+                <h2 id="experience-title" class="section-heading">EXPERIENCE</h2>
 
-                <!-- SUPREMIS Internship -->
-                <div class="experience-item">
-                    <div class="item-header">
+                <div class="entry">
+                    <div class="entry-header">
                         <h3 id="supremis-title">SUPREMIS</h3>
-                        <span class="date" id="supremis-period">2023 - 2025</span>
+                        <span id="supremis-dates" class="date">2023 & 2025</span>
                     </div>
-                    <p id="supremis-role" class="role">IT Internship</p>
-
-                    <!-- First Placement -->
-                    <div class="placement">
-                        <h4 id="placement1-title">First Placement (2023)</h4>
-                        <p id="placement1-desc">Relational Database Administration and Management</p>
-                        <ul id="placement1-tasks">
-                            <li>Database design and optimization</li>
-                            <li>Data integrity and security management</li>
-                            <li>Performance monitoring and maintenance</li>
-                        </ul>
-                    </div>
-
-                    <!-- Second Placement -->
-                    <div class="placement">
-                        <h4 id="placement2-title">Second Placement (2025)</h4>
-                        <p id="placement2-desc">Design and Implementation of REST API in Node.js, ETL Pipeline Handling and Database Integration</p>
-                        <ul id="placement2-tasks">
-                            <li>REST API design and development using Node.js</li>
-                            <li>ETL pipeline implementation and management</li>
-                            <li>Database integration and data flow optimization</li>
-                        </ul>
+                    <p id="supremis-subtitle" class="subtitle">Professional Internship — IT</p>
+                    <p id="supremis-duration" class="duration">1 month each</p>
+                    
+                    <div class="placement-block">
+                        <p id="placement1-title"><strong>First placement (2023):</strong> Relational database administration and management.</p>
+                        <p id="placement2-title"><strong>Second placement (2025):</strong> Design and implementation of a REST API in Node.js, ETL pipeline handling and database integration.</p>
                     </div>
                 </div>
 
-                <!-- Student Council -->
-                <div class="experience-item">
-                    <div class="item-header">
+                <div class="entry">
+                    <div class="entry-header">
                         <h3 id="council-title">Student Council</h3>
-                        <span class="date" id="council-period">2021 - Present</span>
+                        <span id="council-dates" class="date">2024/2025</span>
                     </div>
-                    <p id="council-role" class="role">Vice-Chairperson</p>
-                    <ul id="council-tasks">
-                        <li>Organizing student events and activities</li>
-                        <li>Representing student interests</li>
-                        <li>Leading team initiatives</li>
-                    </ul>
+                    <p id="council-subtitle" class="subtitle">Vice-Chairperson</p>
+                    <p id="council-duration" class="duration">school year</p>
+                    <p id="council-desc">Representing the student community, organising school events, cooperating with teaching staff.</p>
                 </div>
             </section>
 
-            <!-- Skills -->
-            <section id="skills" class="tab-content">
-                <h2 id="skills-title">Technical Skills</h2>
-                <div class="skills-grid">
-                    <div class="skill-card">
-                        <span class="skill-name">JavaScript</span>
+            <!-- Projects -->
+            <section class="content-section">
+                <h2 id="projects-title" class="section-heading">PROJECTS</h2>
+
+                <div class="entry">
+                    <div class="entry-header">
+                        <h3 id="project-name">REST API with ETL Pipeline</h3>
+                        <span id="project-date" class="date">2025</span>
                     </div>
-                    <div class="skill-card">
-                        <span class="skill-name">HTML</span>
-                    </div>
-                    <div class="skill-card">
-                        <span class="skill-name">CSS</span>
-                    </div>
-                    <div class="skill-card">
-                        <span class="skill-name">C#</span>
-                    </div>
-                    <div class="skill-card">
-                        <span class="skill-name">SQL</span>
-                    </div>
-                    <div class="skill-card">
-                        <span class="skill-name">REST API</span>
-                    </div>
-                    <div class="skill-card">
-                        <span class="skill-name">Node.js</span>
-                    </div>
-                    <div class="skill-card">
-                        <span class="skill-name">MS Office</span>
-                    </div>
+                    <p id="project-tech" class="subtitle">Node.js · JavaScript · SQL</p>
+                    <p id="project-desc">Server-side application with REST endpoints, data processing logic (ETL) and database integration. Developed during an internship at SUPREMIS.</p>
+                    <p class="project-link"><a href="https://github.com/wslosarczyk/api" target="_blank">github.com/wslosarczyk/api</a></p>
                 </div>
             </section>
 
-            <!-- Languages -->
-            <section id="languages" class="tab-content">
-                <h2 id="languages-title">Languages</h2>
-                <div class="languages-list">
-                    <div class="language-item">
-                        <span id="lang-polish">Polish</span>
-                        <div class="proficiency-bar">
-                            <div class="proficiency-fill" style="width: 100%"></div>
-                        </div>
-                        <span id="lang-native" class="proficiency-label">Native</span>
-                    </div>
-                    <div class="language-item">
-                        <span id="lang-english">English</span>
-                        <div class="proficiency-bar">
-                            <div class="proficiency-fill" style="width: 80%"></div>
-                        </div>
-                        <span id="lang-b2" class="proficiency-label">B2</span>
-                    </div>
-                    <div class="language-item">
-                        <span id="lang-german">German</span>
-                        <div class="proficiency-bar">
-                            <div class="proficiency-fill" style="width: 20%"></div>
-                        </div>
-                        <span id="lang-a1" class="proficiency-label">A1</span>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Interests -->
-            <section id="interests" class="tab-content">
-                <h2 id="interests-title">Interests</h2>
-                <div class="interests-grid">
-                    <div class="interest-card">
-                        <span class="interest-icon">📊</span>
-                        <span id="interest-economics">Economics</span>
-                    </div>
-                    <div class="interest-card">
-                        <span class="interest-icon">🌍</span>
-                        <span id="interest-geopolitics">Geopolitics</span>
-                    </div>
-                    <div class="interest-card">
-                        <span class="interest-icon">🚗</span>
-                        <span id="interest-automotive">Automotive</span>
-                    </div>
-                    <div class="interest-card">
-                        <span class="interest-icon">🎾</span>
-                        <span id="interest-tennis">Tennis</span>
-                    </div>
-                </div>
-            </section>
+            <!-- Footer -->
+            <footer class="footer">
+                <p id="footer-text">&copy; 2026 Wiktoria Slosarczyk. All rights reserved.</p>
+            </footer>
         </main>
-
-        <!-- Footer -->
-        <footer class="footer">
-            <p id="footer-text">&copy; 2026 Wiktoria Slosarczyk. All rights reserved.</p>
-        </footer>
     </div>
 
     <script src="script.js"></script>
