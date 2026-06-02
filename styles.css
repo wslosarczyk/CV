@@ -197,6 +197,12 @@ body {
     color: var(--text-dark);
 }
 
+.language-level {
+    font-size: 0.8em;
+    color: var(--accent-gold);
+    font-weight: 600;
+}
+
 .dots-rating {
     display: none;
 }
@@ -530,6 +536,10 @@ body {
 
     .language-item span {
         font-size: 0.85em;
+    }
+
+    .language-level {
+        font-size: 0.75em;
     }
 
     .interests-list span {
