@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiktoria Slosarczyk - CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <button id="langBtn" class="lang-toggle" onclick="switchLanguage()">
+            <span class="lang-current">EN</span> / <span class="lang-other">PL</span>
+        </button>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header -->
+        <header class="header" id="header">
+            <div class="header-content">
+                <h1 id="name">Wiktoria Slosarczyk</h1>
+                <p id="title">IT Professional</p>
+            </div>
+        </header>
+
+        <!-- Contact Info -->
+        <section class="contact-info">
+            <div class="contact-item">
+                <span class="icon">📧</span>
+                <a href="mailto:wiktoria.slosarczyk@gmail.com">wiktoria.slosarczyk@gmail.com</a>
+            </div>
+            <div class="contact-item">
+                <span class="icon">📞</span>
+                <a href="tel:+48692898566">+48 692 898 566</a>
+            </div>
+            <div class="contact-item">
+                <span class="icon">📍</span>
+                <span id="city">Bestwina, Poland</span>
+            </div>
+            <div class="contact-item">
+                <span class="icon">🎂</span>
+                <span id="dob">28.11.2006</span>
+            </div>
+        </section>
+
+        <!-- Navigation Tabs -->
+        <nav class="nav-tabs">
+            <button class="tab-button active" onclick="showTab('about')" id="tab-about">
+                <span id="tab-label-about">About Me</span>
+            </button>
+            <button class="tab-button" onclick="showTab('education')" id="tab-label-education">
+                <span id="tab-label-education">Education</span>
+            </button>
+            <button class="tab-button" onclick="showTab('experience')" id="tab-label-experience">
+                <span id="tab-label-experience">Experience</span>
+            </button>
+            <button class="tab-button" onclick="showTab('skills')" id="tab-label-skills">
+                <span id="tab-label-skills">Skills</span>
+            </button>
+            <button class="tab-button" onclick="showTab('languages')" id="tab-label-languages">
+                <span id="tab-label-languages">Languages</span>
+            </button>
+            <button class="tab-button" onclick="showTab('interests')" id="tab-label-interests">
+                <span id="tab-label-interests">Interests</span>
+            </button>
+        </nav>
+
+        <!-- Content Sections -->
+        <main class="content">
+            <!-- About Me -->
+            <section id="about" class="tab-content active">
+                <h2 id="about-title">About Me</h2>
+                <div id="about-text" class="about-text">
+                    <p>Dedicated IT professional with a passion for database management and API development. Currently pursuing studies in IT with practical experience in relational database administration and REST API implementation. Committed to continuous learning and contributing to team success.</p>
+                </div>
+            </section>
+
+            <!-- Education -->
+            <section id="education" class="tab-content">
+                <h2 id="education-title">Education</h2>
+                <div class="education-item">
+                    <div class="item-header">
+                        <h3 id="school-name">Private IT Secondary School</h3>
+                        <span class="date" id="school-dates">2021 - 2026</span>
+                    </div>
+                    <p id="school-location">Bestwina, Poland</p>
+                </div>
+            </section>
+
+            <!-- Experience -->
+            <section id="experience" class="tab-content">
+                <h2 id="experience-title">Experience</h2>
+
+                <!-- SUPREMIS Internship -->
+                <div class="experience-item">
+                    <div class="item-header">
+                        <h3 id="supremis-title">SUPREMIS</h3>
+                        <span class="date" id="supremis-period">2023 - 2025</span>
+                    </div>
+                    <p id="supremis-role" class="role">IT Internship</p>
+
+                    <!-- First Placement -->
+                    <div class="placement">
+                        <h4 id="placement1-title">First Placement (2023)</h4>
+                        <p id="placement1-desc">Relational Database Administration and Management</p>
+                        <ul id="placement1-tasks">
+                            <li>Database design and optimization</li>
+                            <li>Data integrity and security management</li>
+                            <li>Performance monitoring and maintenance</li>
+                        </ul>
+                    </div>
+
+                    <!-- Second Placement -->
+                    <div class="placement">
+                        <h4 id="placement2-title">Second Placement (2025)</h4>
+                        <p id="placement2-desc">Design and Implementation of REST API in Node.js, ETL Pipeline Handling and Database Integration</p>
+                        <ul id="placement2-tasks">
+                            <li>REST API design and development using Node.js</li>
+                            <li>ETL pipeline implementation and management</li>
+                            <li>Database integration and data flow optimization</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Student Council -->
+                <div class="experience-item">
+                    <div class="item-header">
+                        <h3 id="council-title">Student Council</h3>
+                        <span class="date" id="council-period">2021 - Present</span>
+                    </div>
+                    <p id="council-role" class="role">Vice-Chairperson</p>
+                    <ul id="council-tasks">
+                        <li>Organizing student events and activities</li>
+                        <li>Representing student interests</li>
+                        <li>Leading team initiatives</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Skills -->
+            <section id="skills" class="tab-content">
+                <h2 id="skills-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <span class="skill-name">JavaScript</span>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-name">HTML</span>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-name">CSS</span>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-name">C#</span>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-name">SQL</span>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-name">REST API</span>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-name">Node.js</span>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-name">MS Office</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Languages -->
+            <section id="languages" class="tab-content">
+                <h2 id="languages-title">Languages</h2>
+                <div class="languages-list">
+                    <div class="language-item">
+                        <span id="lang-polish">Polish</span>
+                        <div class="proficiency-bar">
+                            <div class="proficiency-fill" style="width: 100%"></div>
+                        </div>
+                        <span id="lang-native" class="proficiency-label">Native</span>
+                    </div>
+                    <div class="language-item">
+                        <span id="lang-english">English</span>
+                        <div class="proficiency-bar">
+                            <div class="proficiency-fill" style="width: 80%"></div>
+                        </div>
+                        <span id="lang-b2" class="proficiency-label">B2</span>
+                    </div>
+                    <div class="language-item">
+                        <span id="lang-german">German</span>
+                        <div class="proficiency-bar">
+                            <div class="proficiency-fill" style="width: 20%"></div>
+                        </div>
+                        <span id="lang-a1" class="proficiency-label">A1</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Interests -->
+            <section id="interests" class="tab-content">
+                <h2 id="interests-title">Interests</h2>
+                <div class="interests-grid">
+                    <div class="interest-card">
+                        <span class="interest-icon">📊</span>
+                        <span id="interest-economics">Economics</span>
+                    </div>
+                    <div class="interest-card">
+                        <span class="interest-icon">🌍</span>
+                        <span id="interest-geopolitics">Geopolitics</span>
+                    </div>
+                    <div class="interest-card">
+                        <span class="interest-icon">🚗</span>
+                        <span id="interest-automotive">Automotive</span>
+                    </div>
+                    <div class="interest-card">
+                        <span class="interest-icon">🎾</span>
+                        <span id="interest-tennis">Tennis</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p id="footer-text">&copy; 2026 Wiktoria Slosarczyk. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
