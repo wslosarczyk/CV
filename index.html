@@ -17,25 +17,21 @@
     <div class="cv-container">
         <!-- Sidebar -->
         <aside class="sidebar">
-            <div class="profile-section">
-                <img src="profile.jpg" alt="Wiktoria Slosarczyk" class="profile-image">
-            </div>
-
             <div class="sidebar-content">
                 <!-- Contact -->
                 <section class="sidebar-section">
                     <h3 id="contact-title" class="sidebar-heading">CONTACT</h3>
                     <div class="contact-list">
                         <div class="contact-item">
-                            <span class="contact-label">Email</span>
+                            <span class="contact-label" id="email-label">Email</span>
                             <a href="mailto:wiktoria.slosarczyk@gmail.com">wiktoria.slosarczyk@gmail.com</a>
                         </div>
                         <div class="contact-item">
-                            <span class="contact-label">Phone</span>
+                            <span class="contact-label" id="phone-label">Phone</span>
                             <a href="tel:+48692898566">+48 692 898 566</a>
                         </div>
                         <div class="contact-item">
-                            <span class="contact-label" id="city-label">City</span>
+                            <span class="contact-label" id="city-label">Locality</span>
                             <span>Bestwina</span>
                         </div>
                         <div class="contact-item">
@@ -65,33 +61,15 @@
                     <h3 id="languages-title" class="sidebar-heading">LANGUAGES</h3>
                     <div class="language-item">
                         <span id="lang-polish">Polish</span>
-                        <div class="dots-rating">
-                            <span class="dot filled"></span>
-                            <span class="dot filled"></span>
-                            <span class="dot filled"></span>
-                            <span class="dot filled"></span>
-                            <span class="dot filled"></span>
-                        </div>
+                        <span id="lang-polish-level" class="language-level">Native</span>
                     </div>
                     <div class="language-item">
                         <span id="lang-english">English</span>
-                        <div class="dots-rating">
-                            <span class="dot filled"></span>
-                            <span class="dot filled"></span>
-                            <span class="dot filled"></span>
-                            <span class="dot filled"></span>
-                            <span class="dot empty"></span>
-                        </div>
+                        <span id="lang-english-level" class="language-level">B2</span>
                     </div>
                     <div class="language-item">
                         <span id="lang-german">German</span>
-                        <div class="dots-rating">
-                            <span class="dot filled"></span>
-                            <span class="dot empty"></span>
-                            <span class="dot empty"></span>
-                            <span class="dot empty"></span>
-                            <span class="dot empty"></span>
-                        </div>
+                        <span id="lang-german-level" class="language-level">A1</span>
                     </div>
                 </section>
 
@@ -113,9 +91,8 @@
             <!-- Header -->
             <header class="header">
                 <h1 id="name">Wiktoria Slosarczyk</h1>
-                <p id="title">TECHNICAL SECONDARY SCHOOL • IT</p>
+                <p id="title">TECHNICAL COLLEGE • IT</p>
                 <div class="header-divider"></div>
-                <p id="subtitle">Bestwina · wiktoria.slosarczyk@gmail.com · +48 692 898 566</p>
             </header>
 
             <!-- About Me -->
@@ -130,7 +107,7 @@
                 
                 <div class="entry">
                     <div class="entry-header">
-                        <h3 id="school-name">Private IT Technical Secondary School</h3>
+                        <h3 id="school-name">Private Technical College of Computer Science</h3>
                         <span id="school-dates" class="date">2021 – 2026</span>
                     </div>
                     <p id="school-subtitle" class="subtitle">IT Programmer Technician</p>
@@ -151,8 +128,8 @@
                     <p id="supremis-duration" class="duration">1 month each</p>
                     
                     <div class="placement-block">
-                        <p id="placement1-title"><strong>First placement (2023):</strong> Relational database administration and management.</p>
-                        <p id="placement2-title"><strong>Second placement (2025):</strong> Design and implementation of a REST API in Node.js, ETL pipeline handling and database integration.</p>
+                        <p id="placement1-title"><strong id="placement1-bold">First placement (2023):</strong> <span id="placement1-text">Relational database administration and management.</span></p>
+                        <p id="placement2-title"><strong id="placement2-bold">Second placement (2025):</strong> <span id="placement2-text">Design and implementation of a REST API in Node.js, ETL pipeline handling and database integration.</span></p>
                     </div>
                 </div>
 
