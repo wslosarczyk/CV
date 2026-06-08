@@ -12,9 +12,9 @@ This repository contains the source code for my personal curriculum vitae websit
 
 ## 🛠️ Technologies
 
-- **HTML** (34.5%) - Structure and content
-- **CSS** (37.6%) - Styling and layout
-- **JavaScript** (27.9%) - Interactivity and functionality
+- **HTML** - Structure and content
+- **CSS** - Styling and layout
+- **JavaScript** - Interactivity and functionality
 
 ## 🚀 Getting Started
 
@@ -55,5 +55,5 @@ This project is personal and available as-is.
 
 ---
 
-**Author:** Witalij Slosarczyk  
+**Author:** Wiktoria Ślosarczyk  
 **Repository:** [github.com/wslosarczyk/CV](https://github.com/wslosarczyk/CV)
