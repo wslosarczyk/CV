@@ -22,16 +22,19 @@ const translations = {
 
         // Main Content
         'name': 'Wiktoria Ślosarczyk',
-        'title': 'TECHNICAL SECONDARY SCHOOL • IT',
+        'title': 'PROGRAMMER TECHNICIAN • IT',
         'about-title': 'ABOUT ME',
-        'about-text': 'IT graduate with hands-on experience in database management and backend development, seeking opportunities to apply technical skills in a professional environment.',
+        'about-text': 'IT graduate with the title of Programmer Technician (INF.03 and INF.04 qualifications passed). Hands-on experience in relational database administration and backend development in Node.js, gained during two internships. Looking for an opportunity to grow professionally in backend and database work.',
 
         // Education
         'education-title': 'EDUCATION',
         'school-name': 'Private IT technical school',
         'school-dates': '2021 – 2026',
-        'school-subtitle': 'IT Programmer Technician',
+        'school-subtitle': 'Programmer Technician (diploma obtained)',
         'school-desc': 'Programming, databases, computer networks, operating systems.',
+        'qualifications-bold': 'Vocational qualifications passed:',
+        'qual-inf03': 'INF.03 — Developing and administering websites, web applications and databases',
+        'qual-inf04': 'INF.04 — Designing, programming and testing applications',
 
         // Experience
         'experience-title': 'EXPERIENCE',
@@ -82,16 +85,19 @@ const translations = {
 
         // Main Content
         'name': 'Wiktoria Ślosarczyk',
-        'title': 'TECHNIKUM INFORMATYCZNE • IT',
+        'title': 'TECHNIK PROGRAMISTA • IT',
         'about-title': 'O MNIE',
-        'about-text': 'Absolwentka technikum informatycznego z doświadczeniem w administracji bazami danych oraz tworzeniu aplikacji backendowych, poszukująca możliwości rozwoju zawo…Absolwentka technikum informatycznego z doświadczeniem w administracji bazami danych oraz tworzeniu aplikacji backendowych, poszukująca możliwości rozwoju zawodowego.',
+        'about-text': 'Absolwentka technikum informatycznego z tytułem technika programisty — zdane egzaminy zawodowe INF.03 i INF.04. Praktyczne doświadczenie w administrowaniu relacyjnymi bazami danych oraz tworzeniu aplikacji backendowych w Node.js, zdobyte podczas dwóch staży zawodowych. Poszukuję możliwości dalszego rozwoju w obszarze backendu i baz danych.',
 
         // Education
         'education-title': 'EDUKACJA',
         'school-name': 'Prywatne Technikum Informatyczne',
         'school-dates': '2021 – 2026',
-        'school-subtitle': 'Technik Programista IT',
+        'school-subtitle': 'Technik programista (dyplom uzyskany)',
         'school-desc': 'Programowanie, bazy danych, sieci komputerowe, systemy operacyjne.',
+        'qualifications-bold': 'Zdane kwalifikacje zawodowe:',
+        'qual-inf03': 'INF.03 — Tworzenie i administrowanie stronami i aplikacjami internetowymi oraz bazami danych',
+        'qual-inf04': 'INF.04 — Projektowanie, programowanie i testowanie aplikacji',
 
         // Experience
         'experience-title': 'DOŚWIADCZENIE',
